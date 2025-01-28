@@ -1,0 +1,13 @@
+.request-now-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 14px;
+  transition: opacity 0.35s;
+}
+.request-now-button:hover {
+  opacity: 0.7;
+
+}

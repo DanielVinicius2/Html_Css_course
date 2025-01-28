@@ -1,0 +1,80 @@
+.link-to-amazon {
+  color: rgb(0,113, 133);
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+
+}
+
+.link-to-amazon:hover{
+  color: orange;
+}
+
+.product-nike-shoes{
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  margin-left: 5px;
+
+}
+
+.value-stock-text {
+  color: rgb(0, 118, 0);
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-left: 5px;
+
+
+}
+
+.delivery-text {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  
+}
+
+.add-to-cart-button {
+  color: black;
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 20px;
+  padding: 7px 25px;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+background-color: rgba(255, 170, 0, 0.8)
+}
+
+.add-to-cart-button:active {
+  opacity: 0.4;
+
+}
+
+.buy-now-button {
+  color: black;
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 20px;
+  padding: 7px 25px;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.buy-now-button:hover {
+  background-color: rgba(227, 136, 0, 0.911);
+}
+
+.buy-now-button:active {
+  opacity: 0.4;
+  
+}
