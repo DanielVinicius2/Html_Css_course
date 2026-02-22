@@ -1,8 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Wiki TFT - Guia Completo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPSec - Segurança na Internet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f6fc;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #003366;
+      color: white;
+    }
+  </style>
 </head>
 <body>
 
@@ -146,61 +182,28 @@
             </table>
         </section>
 
-        <section id="midia">
-            <h2>Mídia</h2>
+    <section>
+      <h2>Modos de Operação</h2>
+      <p>O IPSec pode operar em dois modos:</p>
+      <ul>
+        <li><strong>Modo Transporte:</strong> Apenas o conteúdo do pacote IP é protegido.</li>
+        <li><strong>Modo Túnel:</strong> O pacote IP inteiro é encapsulado e protegido. Usado em VPNs.</li>
+      </ul>
+    </section>
 
-            <article>
-                <h3>Imagem do Jogo</h3>
-                <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg" 
-                     alt="Imagem ilustrativa do universo de TFT" width="400">
-            </article>
+    <section>
+      <h2>Aplicações Comuns</h2>
+      <p>O IPSec é amplamente utilizado em:</p>
+      <ul>
+        <li>Redes Privadas Virtuais (VPNs)</li>
+        <li>Segurança entre roteadores e gateways</li>
+        <li>Proteção de dados sensíveis em redes corporativas</li>
+      </ul>
+    </section>
+  </main>
 
-            <article>
-                <h3>Trailer Oficial</h3>
-                <iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/liNLLx874g4"
-                    title="Trailer TFT"
-                    frameborder="0"
-                    allowfullscreen>
-                </iframe>
-            </article>
-        </section>
-
-        <aside>
-            <h3>Links Externos</h3>
-            <ul>
-                <li><a href="https://teamfighttactics.leagueoflegends.com/" target="_blank">
-                    Site Oficial do TFT
-                </a></li>
-                <li><a href="https://www.leagueoflegends.com/" target="_blank">
-                    League of Legends
-                </a></li>
-            </ul>
-        </aside>
-
-        <section id="contato">
-            <h2>Formulário de Contato (Bônus)</h2>
-
-            <form>
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome"><br><br>
-
-                <label for="email">E-mail:</label><br>
-                <input type="email" id="email" name="email"><br><br>
-
-                <label for="mensagem">Mensagem:</label><br>
-                <input type="text" id="mensagem" name="mensagem"><br><br>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>Projeto desenvolvido por [Seu Nome] - Engenharia de Software - 5º Período</p>
-        <p>Disciplina: Programação Web - UNIFSA</p>
-    </footer>
-
+  <footer>
+    <p>&copy; 2025 - Site Educativo sobre IPSec</p>
+  </footer>
 </body>
 </html>
