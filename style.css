@@ -1,0 +1,118 @@
+/* RESET BÁSICO */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+  background-color: #5E2B97;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.filtros {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+
+.eventos {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  flex: 1;
+}
+
+.card {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card button {
+  align-self: flex-start;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #5E2B97;
+  color: white;
+}
+
+button {
+  background-color: #5E2B97;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #7a3cc2;
+  transform: scale(1.05);
+}
+
+.banner button {
+  background-color: #ff6600;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.banner button:hover {
+  background-color: #ff8533;
+}
+
+.filtros button {
+  background-color: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.filtros button:hover {
+  background-color: #ddd;
+}
+
+.card button {
+  margin-top: 10px;
+}
